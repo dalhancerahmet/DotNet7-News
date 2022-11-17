@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Threading.RateLimiting;
-
 namespace DotNet7_News.Controllers
 {
     [Route("api/[controller]")]
@@ -72,3 +72,4 @@ namespace DotNet7_News.Controllers
 //    return new();
 //};
 #endregion
+
