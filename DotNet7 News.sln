@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimitAPI", "DotNet7 News\RateLimitAPI.csproj", "{752397B0-144D-42D7-B4F0-9C86E65BE0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputCaching", "OutputCaching\OutputCaching.csproj", "{F9FB64C4-DDA6-4EDB-B763-F3165C87D7A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutputCaching", "OutputCaching\OutputCaching.csproj", "{F9FB64C4-DDA6-4EDB-B763-F3165C87D7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR-API", "SignalR-API\SignalR-API.csproj", "{65E6246B-A53D-42DF-9FF0-5346B213B12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR-Client", "SignalR-Client\SignalR-Client.csproj", "{0ECB4B5F-5079-4BCD-B8D1-3A535144498F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F9FB64C4-DDA6-4EDB-B763-F3165C87D7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FB64C4-DDA6-4EDB-B763-F3165C87D7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FB64C4-DDA6-4EDB-B763-F3165C87D7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E6246B-A53D-42DF-9FF0-5346B213B12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E6246B-A53D-42DF-9FF0-5346B213B12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E6246B-A53D-42DF-9FF0-5346B213B12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E6246B-A53D-42DF-9FF0-5346B213B12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECB4B5F-5079-4BCD-B8D1-3A535144498F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECB4B5F-5079-4BCD-B8D1-3A535144498F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECB4B5F-5079-4BCD-B8D1-3A535144498F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECB4B5F-5079-4BCD-B8D1-3A535144498F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
