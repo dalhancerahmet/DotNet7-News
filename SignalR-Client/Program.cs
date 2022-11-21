@@ -4,7 +4,7 @@ HubConnection connection = new HubConnectionBuilder()
     .WithUrl("https://localhost:7135")
     .Build();
 await connection.StartAsync();
-Console.WriteLine();
+Console.WriteLine($"Bağlantı Adresiniz: {connection.ConnectionId}");
 
 connection.On<string,string>("receiveMessage",async message =>
 {

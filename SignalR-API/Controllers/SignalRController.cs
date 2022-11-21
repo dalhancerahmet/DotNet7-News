@@ -10,8 +10,9 @@ namespace SignalR_API.Controllers
     {
         public async Task SendMessage()
         {
+            string connectionId = "Buraya Client tarafından connectionId gönderilmelidir.";
             MyHub hub = new();
-            await hub.SendMessage("SignalR ile mesaj gönderildi");
+            await hub.SendMessage("SignalR ile mesaj gönderildi",connectionId);
         }
     }
 }
